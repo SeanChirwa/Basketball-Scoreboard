@@ -1,0 +1,50 @@
+@font-face {
+    font-family: digit;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+body {
+    margin: 0;
+    background-image: url(peakpx.jpg);
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    
+    color: #EEEEEE;
+    font-family: 'Cursed Timer ULiL', sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.container {
+    width: 500px;
+    height: 350px;
+    margin: auto; 
+    padding: 30px 30px 30px 30px;
+    background: #1B244A;
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-around;
+}
+
+#score-home, #score-guest{
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    font-family: digit;
+}
+
+h3 {
+    font-size: 40px;
+    font: verdana;
+}
+
+
+
+button {
+    color: #9AABD8;
+    background: #1B244A;
+    border: 1px solid #9AABD8;
+    border-radius: 3px;
+    font-size: 20px;
+}
